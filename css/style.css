@@ -78,43 +78,179 @@ header .menu {
 .trabajos {
 	width: 100%;
 	padding-top: 30px;
+	padding-bottom: 30px;
+	overflow: auto;
+	border-bottom: 1px solid black;
 }
 
 .trabajos .preview1 {
-	margin-bottom: 15px;
 	background-image: url("../img/tierra.png");
 	width: 33%;
-	height: 300px;
+	height: 250px;
 	background-position: center center;
-	background-size: cover;
+	background-size: 120%;
 	background-repeat: no-repeat;
-	display: inline-block;
+	float: left;
 }
 
 
-.about {
-	width: 70%;
+.about,.contact {
+	width: 970px;
 	margin: 0 auto;
-	padding-top: 15px;
+	padding-top: 45px;
+	overflow: auto;
 }
 
 
 .foto_ferk {
 	background-image: url("../img/ferk.jpg");
-	height: 180px;
 	width: 180px;
+	height: 180px;
 	background-size: cover;
 	background-repeat: no-repeat;
 	border-radius: 50%;
+	margin: 0 auto;
 }
 
 .texto {
-	display: inline-block;
+float: left;
+width: 70%;
+box-sizing: border-box;
+padding-right: 55px; 
+padding-top: 25px;
 }
 
-.about h2 {
+.about h2, .contact h2, .texto_work h2 {
 	font-weight: 700;
-	margin:0px;
 	font-size: 20px;
 	line-height: 21px;
+	margin: 0px;
+	margin-bottom: 15px;
 }
+
+.about p, .contact p, .texto_work p {
+	margin: 0px;
+}
+
+.contenedor_foto {
+	float: left;
+	width: 30%;
+}
+
+.contenedor_contact {
+	background-color: black;
+	padding-top: 45px;
+	padding-bottom: 45px;
+	margin-top: 45px;
+}
+
+.contacto {
+	margin: 0 auto;
+	width: 970px;
+	overflow: auto;
+}
+
+.texto_contacto {
+	text-align: center;
+	color: white;
+}
+
+.datos {
+	width:45%;
+	box-sizing: border-box;
+	float: left;
+	padding-top: 30px;
+}
+
+.mensaje {
+	width: 50%;
+	float: right;
+	box-sizing: border-box;
+	padding-top: 30px;
+	height: 100%;
+}
+
+input,textarea {
+	padding: 10px;
+	display: block;
+	background-color: #FFF;
+	border: none;
+	font-family: 'Oswald', sans-serif;
+}
+
+input {
+	margin-bottom: 20px;
+	height: 50px;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+textarea {
+	width: 100%;
+	margin-bottom: 20px;
+	height: 123px;
+	box-sizing: border-box;
+}
+
+form button {
+	padding-top: 10px;
+	padding-left: 15px;
+	padding-bottom: 10px;
+	padding-right: 15px;
+	height: 48px;
+	color: white;
+	border: 2px solid white;
+	background-color: black;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+form button:hover {
+	border: 2px solid black;
+	background-color: white;
+	color: black;
+}
+
+
+
+
+
+
+.work_body {
+	width: 100%;
+	margin: 0 auto;
+	padding-top: 45px;
+	overflow: auto;
+	box-sizing: border-box;
+}
+
+
+.imgs_work {
+	width: 800px;
+	height: 800px;
+	display: block;
+	margin: 0 auto;
+	background-image: url("../img/tierra.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	box-sizing: border-box;
+}
+
+.texto_work {
+	display: inline-block;
+	width: 30%;
+	padding-right: 55px; 
+	padding-top: 25px;
+}
+
+
+.contenedor_imgs_work {
+	float: left;
+	width: 70%;
+	box-sizing: border-box;
+}
+
+
+
