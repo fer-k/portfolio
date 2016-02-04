@@ -78,36 +78,140 @@ header .menu {
 .trabajos {
 	width: 100%;
 	padding-top: 30px;
+	padding-bottom: 30px;
+	overflow: auto;
+	border-bottom: 1px solid black;
 }
 
 .trabajos .preview1 {
-	margin-bottom: 7px;
 	background-image: url("../img/tierra.png");
 	width: 33%;
-	height: 300px;
-	background-size: cover;
+	height: 250px;
+	background-position: center center;
+	background-size: 120%;
 	background-repeat: no-repeat;
 	float: left;
 }
 
-.info_about {
-	display: block;
+
+.about,.contact {
+	width: 970px;
 	margin: 0 auto;
-	padding-top: 30px;
+	padding-top: 45px;
+	overflow: auto;
 }
+
 
 .foto_ferk {
 	background-image: url("../img/ferk.jpg");
-	height: 180px;
 	width: 180px;
+	height: 180px;
 	background-size: cover;
 	background-repeat: no-repeat;
-	float: left;
-	border-radius: 50%; 
+	border-radius: 50%;
+	margin: 0 auto;
 }
 
 .texto {
-	width: 50%;
-	display: inline-block;
-	padding-left: 30px;
+float: left;
+width: 70%;
+box-sizing: border-box;
+padding-right: 55px; 
+padding-top: 25px;
 }
+
+.about h2, .contact h2 {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 21px;
+	margin: 0px;
+	margin-bottom: 15px;
+}
+
+.about p, .contact p {
+	margin: 0px;
+}
+
+.contenedor_foto {
+	float: left;
+	width: 30%;
+}
+
+.contenedor_contact {
+	padding-top: 45px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	padding-bottom: 45px;
+	margin-top: 45px;
+}
+
+.contacto {
+	margin: 0 auto;
+	width: 970px;
+	overflow: auto;
+}
+
+.texto_contacto {
+	text-align: center;
+}
+
+.datos {
+	width:45%;
+	box-sizing: border-box;
+	float: left;
+	padding-top: 30px;
+}
+
+.mensaje {
+	width: 50%;
+	float: right;
+	box-sizing: border-box;
+	padding-top: 30px;
+	height: 100%;
+}
+
+input,textarea {
+	padding: 10px;
+	display: block;
+	background-color: #000;
+	color: white;
+	border: none;
+	font-family: 'Oswa', sans-serif;
+}
+
+input {
+	margin-bottom: 20px;
+	height: 50px;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+textarea {
+	width: 100%;
+	margin-bottom: 20px;
+	height: 123px;
+	box-sizing: border-box;
+}
+
+form button {
+	padding-top: 10px;
+	padding-left: 15px;
+	padding-bottom: 10px;
+	padding-right: 15px;
+	height: 48px;
+	color: black;
+	border: 2px solid black;
+	background-color: white;
+	font-family: 'Oswa', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+form button:hover {
+	border: 2px solid white;
+	background-color: black;
+	color: white;
+
+}
+
