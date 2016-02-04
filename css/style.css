@@ -84,21 +84,37 @@ header .menu {
 }
 
 .trabajos .preview1 {
+<<<<<<< HEAD
 	background-image: url("../img/tierra.png");
 	width: 33%;
 	height: 250px;
 	background-position: center center;
 	background-size: 120%;
+=======
+	margin-bottom: 15px;
+	background-image: url("../img/tierra.png");
+	width: 33%;
+	height: 300px;
+	background-position: center center;
+	background-size: cover;
+>>>>>>> refs/remotes/origin/gh-pages
 	background-repeat: no-repeat;
-	float: left;
+	display: inline-block;
 }
 
 
+<<<<<<< HEAD
 .about,.contact {
 	width: 970px;
 	margin: 0 auto;
 	padding-top: 45px;
 	overflow: auto;
+=======
+.about {
+	width: 70%;
+	margin: 0 auto;
+	padding-top: 15px;
+>>>>>>> refs/remotes/origin/gh-pages
 }
 
 
@@ -109,6 +125,7 @@ header .menu {
 	background-size: cover;
 	background-repeat: no-repeat;
 	border-radius: 50%;
+<<<<<<< HEAD
 	margin: 0 auto;
 }
 
@@ -215,3 +232,17 @@ form button:hover {
 
 }
 
+=======
+}
+
+.texto {
+	display: inline-block;
+}
+
+.about h2 {
+	font-weight: 700;
+	margin:0px;
+	font-size: 20px;
+	line-height: 21px;
+}
+>>>>>>> refs/remotes/origin/gh-pages
