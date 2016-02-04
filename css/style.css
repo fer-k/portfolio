@@ -120,7 +120,11 @@ padding-right: 55px;
 padding-top: 25px;
 }
 
+<<<<<<< HEAD
 .about h2, .contact h2, .texto_work h2 {
+=======
+.about h2, .contact h2 {
+>>>>>>> refs/remotes/origin/master
 	font-weight: 700;
 	font-size: 20px;
 	line-height: 21px;
@@ -128,7 +132,11 @@ padding-top: 25px;
 	margin-bottom: 15px;
 }
 
+<<<<<<< HEAD
 .about p, .contact p, .texto_work p {
+=======
+.about p, .contact p {
+>>>>>>> refs/remotes/origin/master
 	margin: 0px;
 }
 
@@ -138,8 +146,14 @@ padding-top: 25px;
 }
 
 .contenedor_contact {
+<<<<<<< HEAD
 	background-color: black;
 	padding-top: 45px;
+=======
+	padding-top: 45px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+>>>>>>> refs/remotes/origin/master
 	padding-bottom: 45px;
 	margin-top: 45px;
 }
@@ -152,7 +166,10 @@ padding-top: 25px;
 
 .texto_contacto {
 	text-align: center;
+<<<<<<< HEAD
 	color: white;
+=======
+>>>>>>> refs/remotes/origin/master
 }
 
 .datos {
@@ -168,6 +185,7 @@ padding-top: 25px;
 	box-sizing: border-box;
 	padding-top: 30px;
 	height: 100%;
+<<<<<<< HEAD
 }
 
 input,textarea {
@@ -253,4 +271,52 @@ form button:hover {
 }
 
 
+=======
+}
+
+input,textarea {
+	padding: 10px;
+	display: block;
+	background-color: #000;
+	color: white;
+	border: none;
+	font-family: 'Oswa', sans-serif;
+}
+
+input {
+	margin-bottom: 20px;
+	height: 50px;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+textarea {
+	width: 100%;
+	margin-bottom: 20px;
+	height: 123px;
+	box-sizing: border-box;
+}
+
+form button {
+	padding-top: 10px;
+	padding-left: 15px;
+	padding-bottom: 10px;
+	padding-right: 15px;
+	height: 48px;
+	color: black;
+	border: 2px solid black;
+	background-color: white;
+	font-family: 'Oswa', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+form button:hover {
+	border: 2px solid white;
+	background-color: black;
+	color: white;
+
+}
+>>>>>>> refs/remotes/origin/master
 
